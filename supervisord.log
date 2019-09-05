@@ -1,0 +1,107 @@
+2019-07-06 15:29:34,538 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-06 15:29:56,212 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-06 15:29:56,528 INFO RPC interface 'supervisor' initialized
+2019-07-06 15:29:56,528 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-07-06 15:29:56,529 INFO daemonizing the supervisord process
+2019-07-06 15:29:56,530 INFO set current directory: '/home/vunm'
+2019-07-06 15:29:56,530 INFO supervisord started with pid 9213
+2019-07-06 15:29:57,534 INFO spawned: 'api_8101' with pid 9230
+2019-07-06 15:29:58,870 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-06 15:38:05,168 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-06 15:38:05,484 INFO RPC interface 'supervisor' initialized
+2019-07-06 15:38:05,484 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-07-06 15:38:05,485 INFO daemonizing the supervisord process
+2019-07-06 15:38:05,486 INFO set current directory: '/home/vunm'
+2019-07-06 15:38:05,486 INFO supervisord started with pid 14780
+2019-07-06 15:38:06,490 INFO spawned: 'api_8101' with pid 14797
+2019-07-06 15:38:07,816 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-07 19:29:44,346 INFO exited: api_8101 (exit status 1; not expected)
+2019-07-07 19:29:45,352 INFO spawned: 'api_8101' with pid 2983
+2019-07-07 19:29:46,686 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-08 05:25:13,547 INFO exited: api_8101 (exit status 1; not expected)
+2019-07-08 05:25:14,553 INFO spawned: 'api_8101' with pid 32194
+2019-07-08 05:25:15,865 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-12 16:06:57,815 INFO exited: api_8101 (exit status 1; not expected)
+2019-07-12 16:06:58,821 INFO spawned: 'api_8101' with pid 10637
+2019-07-12 16:07:00,166 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-12 16:07:06,071 INFO exited: api_8101 (exit status 1; not expected)
+2019-07-12 16:07:07,074 INFO spawned: 'api_8101' with pid 10728
+2019-07-12 16:07:08,453 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-17 08:25:29,447 INFO exited: api_8101 (exit status 1; not expected)
+2019-07-17 08:25:30,455 INFO spawned: 'api_8101' with pid 28405
+2019-07-17 08:25:31,818 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-17 08:29:17,019 INFO exited: api_8101 (exit status 1; not expected)
+2019-07-17 08:29:18,025 INFO spawned: 'api_8101' with pid 30666
+2019-07-17 08:29:19,340 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-21 05:28:00,599 INFO exited: api_8101 (exit status 1; not expected)
+2019-07-21 05:28:01,606 INFO spawned: 'api_8101' with pid 6007
+2019-07-21 05:28:02,925 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-21 05:28:05,839 INFO exited: api_8101 (exit status 1; not expected)
+2019-07-21 05:28:06,843 INFO spawned: 'api_8101' with pid 6068
+2019-07-21 05:28:08,136 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-21 05:28:11,030 INFO exited: api_8101 (exit status 1; not expected)
+2019-07-21 05:28:12,034 INFO spawned: 'api_8101' with pid 6139
+2019-07-21 05:28:13,320 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-21 05:28:16,219 INFO exited: api_8101 (exit status 1; not expected)
+2019-07-21 05:28:17,223 INFO spawned: 'api_8101' with pid 6200
+2019-07-21 05:28:18,502 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-21 05:28:21,398 INFO exited: api_8101 (exit status 1; not expected)
+2019-07-21 05:28:22,402 INFO spawned: 'api_8101' with pid 6261
+2019-07-21 05:28:23,697 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-21 05:28:26,589 INFO exited: api_8101 (exit status 1; not expected)
+2019-07-21 05:28:27,593 INFO spawned: 'api_8101' with pid 6322
+2019-07-21 05:28:28,871 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-21 05:28:31,767 INFO exited: api_8101 (exit status 1; not expected)
+2019-07-21 05:28:32,772 INFO spawned: 'api_8101' with pid 6383
+2019-07-21 05:28:34,049 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-21 05:28:36,936 INFO exited: api_8101 (exit status 1; not expected)
+2019-07-21 05:28:37,940 INFO spawned: 'api_8101' with pid 6444
+2019-07-21 05:28:39,219 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-21 05:28:42,114 INFO exited: api_8101 (exit status 1; not expected)
+2019-07-21 05:28:43,117 INFO spawned: 'api_8101' with pid 6505
+2019-07-21 05:28:44,383 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-21 05:28:47,272 INFO exited: api_8101 (exit status 1; not expected)
+2019-07-21 05:28:48,276 INFO spawned: 'api_8101' with pid 6566
+2019-07-21 05:28:49,551 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-21 05:28:52,456 INFO exited: api_8101 (exit status 1; not expected)
+2019-07-21 05:28:53,460 INFO spawned: 'api_8101' with pid 6627
+2019-07-21 05:28:54,756 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-21 05:28:57,645 INFO exited: api_8101 (exit status 1; not expected)
+2019-07-21 05:28:58,649 INFO spawned: 'api_8101' with pid 6698
+2019-07-21 05:28:59,938 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-21 05:29:02,841 INFO exited: api_8101 (exit status 1; not expected)
+2019-07-21 05:29:03,845 INFO spawned: 'api_8101' with pid 6759
+2019-07-21 05:29:05,129 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-21 05:29:08,023 INFO exited: api_8101 (exit status 1; not expected)
+2019-07-21 05:29:09,027 INFO spawned: 'api_8101' with pid 6820
+2019-07-21 05:29:10,305 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-29 09:00:51,279 INFO exited: api_8101 (exit status 0; expected)
+2019-07-29 09:00:52,285 INFO spawned: 'api_8101' with pid 14550
+2019-07-29 09:00:53,636 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-29 09:00:55,987 INFO exited: api_8101 (exit status 0; expected)
+2019-07-29 09:00:56,991 INFO spawned: 'api_8101' with pid 14601
+2019-07-29 09:00:58,324 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-08-01 08:30:54,057 INFO exited: api_8101 (exit status 0; expected)
+2019-08-01 08:30:55,062 INFO spawned: 'api_8101' with pid 2739
+2019-08-01 08:30:56,410 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-08-01 08:30:57,762 INFO exited: api_8101 (exit status 0; expected)
+2019-08-01 08:30:58,764 INFO spawned: 'api_8101' with pid 2780
+2019-08-01 08:31:00,054 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-08-05 02:03:34,042 INFO exited: api_8101 (exit status 1; not expected)
+2019-08-05 02:03:35,048 INFO spawned: 'api_8101' with pid 17758
+2019-08-05 02:03:36,332 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-08-05 02:04:15,800 INFO exited: api_8101 (exit status 1; not expected)
+2019-08-05 02:04:16,807 INFO spawned: 'api_8101' with pid 18182
+2019-08-05 02:04:18,105 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-08-05 02:21:30,849 INFO exited: api_8101 (exit status 1; not expected)
+2019-08-05 02:21:31,856 INFO spawned: 'api_8101' with pid 28435
+2019-08-05 02:21:33,145 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-08-05 02:22:12,597 INFO exited: api_8101 (exit status 1; not expected)
+2019-08-05 02:22:13,601 INFO spawned: 'api_8101' with pid 28856
+2019-08-05 02:22:14,893 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-08-08 20:26:30,303 INFO exited: api_8101 (exit status 1; not expected)
+2019-08-08 20:26:31,309 INFO spawned: 'api_8101' with pid 29827
+2019-08-08 20:26:32,706 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-08-08 20:26:35,565 INFO exited: api_8101 (exit status 1; not expected)
+2019-08-08 20:26:36,569 INFO spawned: 'api_8101' with pid 29888
+2019-08-08 20:26:37,953 INFO success: api_8101 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

@@ -1,0 +1,9 @@
+- hosts: all
+  tasks:
+    - name: Deploy all project production on server
+      copy:
+        src: "{{ item }}"
+        dest: /home/vunm/telegramBot/
+      with_items:
+        - ../../StudyEnglish
+      become: yes
