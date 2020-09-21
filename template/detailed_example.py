@@ -14,7 +14,7 @@ reload(sys)
 sys.setdefaultencoding("utf-8")
 r = Redis(host=REDIS_HOST, port=REDIS_PORT, db=REDIS_DB)
 
-TOKEN = '834857847:AAH-_g84YhfoYW5Oc60KMtsaym8ByokJ0VA'
+TOKEN = '834857847:AAH-_g84YhfoYW5Oc60KMtsaym8ByokJ0VA_AAAA'
 
 knownUsers = []  # todo: save these in a file,
 userStep = {}  # so they won't reset every time the bot restarts
