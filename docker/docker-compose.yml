@@ -55,6 +55,14 @@ services:
         hard: 40000
     volumes:
       - /etc/localtime:/etc/localtime:ro
-      - /data/mongodb:/data/db
-      - /data/backup:/data/backup
-    restart: unless-stopped
+    network_mode: host
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example

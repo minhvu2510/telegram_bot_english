@@ -1,6 +1,3 @@
 #!/bin/bash
-
 set -e
-
-
-exec mongorestore -d mvp /mvp
+mongorestore -d mvp /mvp

@@ -1,24 +1,15 @@
-FROM mongo:latest
 
-# custom label for the docker image
-LABEL version="0.1" maintainer="ObjectRocket"
-
-# use 'RUN' to execute commands in the container's bash terminal
-RUN apt-get update -y
-RUN apt-get remove mongodb-org -y
-RUN apt-get install mongodb -y
-RUN mkdir -p ./data/db
-RUN service mongodb start -y
-
-# expose MongoDB's default port of 27017
-EXPOSE 27017
+FROM mongo:3.6.8
 
 COPY ./mvp /mvp
 
-WORKDIR /mvp
-
+# Khởi tạo db với file dữ liệu trong mvp
 COPY ./entrypoint_mongo.sh /entrypoint.sh
 
-ENTRYPOINT ["/bin/bash", "/entrypoint.sh"]
+RUN chmod 777 /entrypoint.sh
 
-CMD ["mongod"]
+EXPOSE 27017
+
+ENTRYPOINT mongod
+
+CMD /entrypoint.sh
