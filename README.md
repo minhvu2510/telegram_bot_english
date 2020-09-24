@@ -1,7 +1,9 @@
 # Trắc nghiệm toeic theo chủ đề
-
+## Test bot
+* Search trên telegram bot 'LoveYourSmile'
+* Bắt đầu bằng lệnh '/study'
 ## Các bước kiểm tra
-* Từ vựng được chia theo chủ đề, chọn chủ để để tiến hành ôn tập
+* Từ vựng được chia theo chủ đề, chọn chủ để để tiến hành ôn tập. 
 * Có kết quả số câu đúng khi kết thúc kiểm tra
 * Những câu sai sẽ được lưu vào topic 'memo' để kiểm tra lại, vào tự xóa sau khi trả lời đúng hoặc sau 7 ngày
 

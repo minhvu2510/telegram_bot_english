@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25e21238-e66c-4c91-9e3c-f7cea395d8f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/deployment/roles/common/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/.deploy.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/hosts" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/hosts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detailed_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/detailed_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/Dockerfile.mongo" beforeDir="false" afterPath="$PROJECT_DIR$/docker/Dockerfile.mongo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/entrypoint.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/entrypoint_mongo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/entrypoint_mongo.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +39,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="345">
-                <caret line="23" column="91" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="91" />
+              <first_editor relative-caret-position="45">
+                <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
               </first_editor>
               <second_editor />
             </state>
@@ -314,12 +299,12 @@
       <workItem from="1600654987853" duration="20589000" />
       <workItem from="1600744730376" duration="19448000" />
       <workItem from="1600830391417" duration="5396000" />
-      <workItem from="1600836440006" duration="13647000" />
+      <workItem from="1600836440006" duration="13831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125709000" />
+    <option name="totallyTimeSpent" value="125893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="25" width="1873" height="1055" extended-state="6" />
@@ -591,8 +576,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="345">
-            <caret line="23" column="91" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="91" />
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
           </first_editor>
           <second_editor />
         </state>
