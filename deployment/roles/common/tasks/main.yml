@@ -1,0 +1,29 @@
+- name: create directory bot telegram
+  file:
+    path: /srv/tele_bot/
+    owner: root
+    group: root
+    mode: 0655
+    state: directory
+  tags:
+    - rsync
+    - telebot
+
+- name: sync all
+  synchronize:
+    src={{ inventory_dir }}/../
+    dest=/srv/tele_bot/
+    rsync_path="sudo rsync"
+  become: false
+  tags:
+    - rsync
+    - telebot
+
+- name: build container bot telegram
+  shell: |
+    cd /srv/tele_bot/docker/ &&
+    set -a &&
+    . /srv/tele_bot/docker/.env &&
+    docker-compose up -d --build
+  tags:
+    - telebot

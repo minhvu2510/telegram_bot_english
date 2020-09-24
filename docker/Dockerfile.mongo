@@ -6,10 +6,10 @@ COPY ./mvp /mvp
 # Khởi tạo db với file dữ liệu trong mvp
 COPY ./entrypoint_mongo.sh /entrypoint.sh
 
-RUN chmod 777 /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 
 EXPOSE 27017
 
-ENTRYPOINT mongod
+ENTRYPOINT /entrypoint.sh
 
-CMD /entrypoint.sh
+CMD mongod

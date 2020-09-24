@@ -1,4 +1,4 @@
-FROM python:3.6.8-jessie
+FROM python:3.5.2
 
 # Cài code
 RUN mkdir -p /code
@@ -6,7 +6,7 @@ RUN mkdir /log
 
 RUN pip install gunicorn futures
 
-COPY ./requirements.txt /code
+COPY requirements.txt /code/
 RUN pip install -r /code/requirements.txt
 
 COPY ./ /code

@@ -3,6 +3,7 @@ from pymongo import MongoClient
 # import sys
 # sys.path.append('../')
 from settings import *
+print (MONGO_CLIENT)
 client = MongoClient(MONGO_CLIENT)
 # client_report = MongoClient(MONGO_REPORT)
 db = client[MONGO_DATABASE]

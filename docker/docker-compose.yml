@@ -23,24 +23,6 @@ services:
     privileged: true
     restart: unless-stopped
 
-  bot-core:
-    container_name: nextcloud-core
-    build:
-      context: ../
-      dockerfile: Dockerfile
-    ports:
-      - 9000:9000
-    volumes:
-      - /etc/localtime:/etc/localtime:ro
-      - /code/telegram_bot_english:/code/telegram_bot_english
-    environment:
-      - TOKEN=${TOKEN}
-      - REDIS_HOST=${REDIS_HOST}
-      - REDIS_PORT=${REDIS_PORT}
-      - MONGO_CLIENT=${MONGO_CLIENT}
-      - MONGO_DATABASE=${MONGO_DATABASE}
-    restart: always
-    network_mode: host
   mongodb:
     container_name: mongodb
     build:
@@ -56,13 +38,25 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime:ro
     network_mode: host
-    restart: always
+    restart: unless-stopped
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: example
-  mongo:
-    image: mongo
-    restart: always
+  bot-core:
+    container_name: bot-core
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile
+    ports:
+      - 9000:9000
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /code/telegram_bot_english:/code/telegram_bot_english
     environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: example
+      - TOKEN=${TOKEN}
+      - REDIS_HOST=${REDIS_HOST}
+      - REDIS_PORT=${REDIS_PORT}
+      - MONGO_CLIENT=${MONGO_CLIENT}
+      - MONGO_DATABASE=${MONGO_DATABASE}
+    restart: always
+    network_mode: host

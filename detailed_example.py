@@ -7,14 +7,14 @@ sys.path.append('../')
 import api
 from settings import *
 import time
-import telebot
-from telebot import types
 from redis import Redis
-reload(sys)
-sys.setdefaultencoding("utf-8")
+import telebot
+# from importlib import reload
+# reload(sys)
+# sys.setdefaultencoding("utf-8")
 r = Redis(host=REDIS_HOST, port=REDIS_PORT, db=REDIS_DB)
 
-TOKEN = '834857847:AAH-_g84YhfoYW5Oc60KMtsaym8ByokJ0VA'
+
 
 knownUsers = []  # todo: save these in a file,
 userStep = {}  # so they won't reset every time the bot restarts
@@ -33,13 +33,13 @@ commands_topic = api.get_commands_topic()
 
 # imageSelect = types.ReplyKeyboardMarkup(one_time_keyboard=True)  # create the image selection keyboard
 # imageSelect.add('cock', 'pussy','mv','cd')
-imageSelect = types.ReplyKeyboardMarkup()
+imageSelect = telebot.types.ReplyKeyboardMarkup()
 imageSelect.add("A")
 imageSelect.add("B")
 imageSelect.add("C")
 imageSelect.add("D")
 
-hideBoard = types.ReplyKeyboardRemove()  # if sent as reply_markup, will hide the keyboard
+hideBoard = telebot.types.ReplyKeyboardRemove()  # if sent as reply_markup, will hide the keyboard
 
 command = ['start']
 command_topics = api.get_topics()
@@ -160,7 +160,6 @@ def show_quetions(m):
     if(index + 1 < len_list):
 
         if text == "A":
-            print check_anwer('A')
             if check_anwer('A')[0] == False:
                 bot.send_message(cid, "False .. " + check_anwer('A')[1])
                 api.set_forgetful_word(check_anwer('A')[2],check_anwer('A')[1],604800)

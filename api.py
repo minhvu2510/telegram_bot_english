@@ -16,7 +16,6 @@ def get_all_key():
 def get_item(key):
 
     item = r.get(key)
-    # print(item.decode('utf-8'))
     return item
 
 def get_data_in_mongo():
@@ -69,7 +68,6 @@ def get_words_forget():
         list_answer = []
         key = i
         value = r.get(i)
-        print value
         while len(list_answer) < 3:
             if value not in list_answer:
                 list_answer.append(find_topic[random.randint(0,len(find_topic) - 1)]['value'])

@@ -2,3 +2,4 @@ flask-restful==0.3.6
 redis==3.5.3
 telebot==0.0.3
 pymongo==3.11.0
+pytelegrambotapi
